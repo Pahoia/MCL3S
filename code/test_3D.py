@@ -30,7 +30,7 @@ def Inference(FLAGS):
     net.load_state_dict(torch.load(save_mode_path))
     print("init weight from {}".format(save_mode_path))
     net.eval()
-    avg_metric, std = test_all_case(net, base_dir=FLAGS.root_path, method=FLAGS.model, test_list="test.txt", num_classes=num_classes,
+    avg_metric, std = test_all_case(net, base_dir=FLAGS.root_path, method=FLAGS.model, test_list="test.list", num_classes=num_classes,
                                patch_size=(160, 160, 120), stride_xy=18, stride_z=4, test_save_path=test_save_path)
     return avg_metric, std
 
