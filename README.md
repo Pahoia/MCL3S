@@ -12,7 +12,7 @@ python code/test_3D.py --model vnet --gpu 0
 ```
 
 ## Acknowledgements
-Our code is origin from [UAMT](https://github.com/yulequan/UA-MT), [MC-Net+](https://github.com/ycwu1997/MC-Net) and [SSL4MIS](https://github.com/HiLab-git/SSl4MIS). Thanks for these authors for their valuable works.
+Thanks for these authors [ST++](https://github.com/LiheYoung/ST-PlusPlus), [MC-Net+](https://github.com/ycwu1997/MC-Net), [SSL4MIS](https://github.com/HiLab-git/SSl4MIS) for their valuable works.
 
 ## Contact
 If you have any question, please contact pahoia_boho651@outlook.com.
